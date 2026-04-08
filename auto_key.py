@@ -22,8 +22,8 @@ while True:
         time.sleep(random.uniform(0.05, 0.15))
         print("动了一下鼠标")
 
-    # 核心间隔 10~20 秒
-    time.sleep(random.uniform(10, 20))
+    # 核心间隔 5~10 秒
+    time.sleep(random.uniform(5, 10))
 
     # 每15次多休息一会
     if count % 15 == 0:
