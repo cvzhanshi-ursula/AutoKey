@@ -100,6 +100,6 @@ def version3_loop():
 
 if __name__ == '__main__':
     # 切换版本：取消对应行的注释即可
-    # anti_afk_ad()        # 第一版：a/d 防挂机（无限循环）
+    anti_afk_ad()        # 第一版：a/d 防挂机（无限循环）
     # spam_f()             # 第二版：每 1 秒按 f
-    version3_loop()        # 第三版：大循环（默认）
+    # version3_loop()        # 第三版：大循环（默认）
